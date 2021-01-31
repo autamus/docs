@@ -1,6 +1,6 @@
 ## Add a Package to the Repository
 1. (Optional) Fork the repository
-2. Clone the repository to your local computer | either your fork or the `container-blueprints` repository.
+2. Clone the repository to your local computer | or fork or the `container-blueprints` repository to your own.
 ```
 git clone https://github.com/autamus/container-blueprints
 ```
