@@ -27,4 +27,4 @@ git commit
 ```
 git push
 ```
-9. (Optional create a Pull Request to the `autamus/container-blueprints`.)
+9. (Optional create a Pull Request to the `autamus/registry`.)

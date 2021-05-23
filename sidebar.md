@@ -1,10 +1,4 @@
-* [Arken Docs](./)
+* [Getting Started](./getting-started/index)
 
-* [Tutorials](./tutorials/index)
-  * [Tomcat](./tutorials/tomcat/index)
-  * [Cloud](./tutorials/cloud/index)
-  * [Java](./tutorials/java/index)
-
-* [About](./about/index)
-
-* [Contact](./contact/index)
+* [Packaging Guide](./packaging-guide/index)
+  * [Adding A Package](./packaging-guide/adding-a-package)
