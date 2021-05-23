@@ -13,11 +13,42 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      el: "#app",
-      loadSidebar: true,
-      loadSidebar: 'sidebar.md',
-      themeColor: '#709EE4',
-      logo: '/autamus-logo.png',
+        el: "#app",
+        loadSidebar: 'sidebar.md',
+        themeColor: '#709EE4',
+        logo: '/autamus-logo.png',
+
+        search: 'auto', // default
+
+        search : [
+            '/',            // => /README.md
+        ],
+
+        // complete configuration parameters
+        search: {
+            maxAge: 86400000, // Expiration time, the default one day
+            paths: [], // or 'auto'
+            placeholder: 'Type to search',
+
+            // Localization
+            placeholder: {
+                '/zh-cn/': '搜索',
+                '/': 'Type to search'
+            },
+
+            noData: 'No Results!',
+
+            // Localization
+            noData: {
+                '/zh-cn/': '找不到结果',
+                '/': 'No Results'
+            },
+
+            // Headline depth, 1 - 6
+            depth: 2,
+
+            hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+        }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
