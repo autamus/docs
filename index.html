@@ -52,7 +52,6 @@
   <div id="app"></div>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <script>
     window.$docsify = {
         el: "#app",
@@ -74,7 +73,21 @@
             ],
         },
         plugins: [
-          EditOnGithubPlugin.create('https://github.com/autamus/docs/blob/master/', null, '📝 Edit Document')
+        function(hook, vm) {
+            hook.beforeEach(function(html) {
+              url = 'https://github.com/autamus/docs/blob/main/' + vm.route.file;
+              var editHtml = '[:memo: Edit Document](' + url + ')\n';
+              return (
+                editHtml +
+                html
+              );
+            }),
+              hook.afterEach(function(html) {
+                return (
+                  html
+                );
+              });
+          },
         ]
     }
   </script>
