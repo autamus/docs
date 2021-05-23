@@ -1,4 +1,4 @@
-* [HOME](./)
+* [Arken Docs](./)
 
 * [Tutorials](./tutorials/index)
   * [Tomcat](./tutorials/tomcat/index)
