@@ -13,7 +13,7 @@ When a new version of a scientific/open source application is released, Autamus 
 Using containers built by Autamus, you can install all of the software you need in one easy package. Then easily move your workflows between laptops, servers, and HPC clusters all while using the same container to drastically increase the portability of your research. Finally, don't worry about your containers using up all of your available disk space because Autamus strips out everything except the software you actually need in your container.
 
 ### Getting Started with Autamus Containers
-Check out the [getting started section](./getting-started/index.md) to start using containers in your workflows today.
+Check out the [getting started section](getting-started/index.md) to start using containers in your workflows today.
 
 
 #### Container Size Comparisons
