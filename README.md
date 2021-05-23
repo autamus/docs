@@ -8,7 +8,7 @@ Well, Autamus is a software system that builds and maintains a curated repositor
 
 When a new version of a scientific/open source application is released, Autamus automatically spins up to recompile all of the containers built on top of that application from scratch. The results of those build are then submitted to our team of maintainers as pull requests on the [Autamus Registry Repository](https://github.com/autamus/registry/pulls) to verify and accept before then being published.
 
-### What Does This Mean For You As A Researcher/Developer?
+#### What Does This Mean For You As A Researcher/Developer?
 
 Using containers built by Autamus, you can install all of the software you need in one easy package. Then easily move your workflows between laptops, servers, and HPC clusters all while using the same container to drastically increase the portability of your research. Finally, don't worry about your containers using up all of your available disk space because Autamus strips out everything except the software you actually need in your container.
 
