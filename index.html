@@ -26,6 +26,27 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#709EE4">
     <title>Autamus Docs</title>
+    <style>
+      .search {
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        border-top: 1px solid #EEEEEE;
+        z-index: 10;
+        background-color: #FFFFFF;
+      }
+      .sidebar > h1 {
+          position: absolute;
+          top: 20px;
+          left: 0;
+          width: 100%;
+      }
+      .sidebar-nav {
+          position: absolute;
+          width: 100%;
+          top: 130px;
+      }
+    </style>
 </head>
 <body>
   <div id="app"></div>
@@ -34,6 +55,7 @@
         el: "#app",
         loadSidebar: 'sidebar.md',
         themeColor: '#709EE4',
+        name: 'Autamus Docs',
         logo: '/docs/autamus-logo.svg',
         repo: 'https://github.com/autamus/docs',
         auto2top: true,
