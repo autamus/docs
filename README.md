@@ -1,5 +1,9 @@
-# docs
-Documentation about Autamus
+# Autamus Docs
+Welcome to the Autamus Docs!
+
+## What is Autamus?
+
+## Getting Started with Autamus Containers
 
 #### Container Size Comparisons
 | **Package/Container Name** | **Autamus Container Size** | **Official Dockerhub Container Size** |
