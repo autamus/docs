@@ -29,16 +29,16 @@ Make sure to check for the package you're looking for from the [Spack Repository
 5. (Optional) To help Autamus keep track of the Spack packages within your container please help us add their corrisponding `package.py` files to Autamus.
 6. (Optional) Save the Spack instructions or create your new ones within a `package.py` file within the `spack/first-letter-of-package/package-name` directory.
 ```bash
-nano package.py
+nano spack/a/ant/package.py
 ```
-```
+
+```python
 # Copyright 2013-2021 Lawrence Livermore National Security, LLC and other
 # Spack Project Developers. See the top-level COPYRIGHT file for details.
 #
 # SPDX-License-Identifier: (Apache-2.0 OR MIT)
 
 from spack import *
-
 
 class Ant(Package):
     """Apache Ant is a Java library and command-line tool whose mission is to
@@ -69,6 +69,7 @@ class Ant(Package):
         bash = which('bash')
         bash('./build.sh', 'install-lite')
 ```
+
 ##### Submit Your Container
 7. Commit your changes to the repository.
 ```
