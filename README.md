@@ -22,4 +22,4 @@ Check out the [getting started section](getting-started/quick-start.md) to start
 | Python                     | 417MB                      | 885MB                                 |
 | R                          | 517.9MB                    | 761.2MB                               |
 | Go                         | 751.2MB                    | 861.9MB                               |
-| Rust                       |                            |                                       |
+| Rust                       | 754MB                      | 1.235GB                               |
