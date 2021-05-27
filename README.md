@@ -13,7 +13,7 @@ Using containers built by Autamus, you can install all of the software you need 
 When on your laptop or a cloud virtual machine, Autamus containers can natively be used with [Docker](https://www.docker.com) or [Podman](https://podman.io). If you are using a University or National Lab Cluster, check out [Singularity-HPC](https://singularity-hpc.readthedocs.io/en/latest/) which let's you use Autamus containers as native software modules.
 
 ### Getting Started with Autamus Containers
-Check out the [getting started section](getting-started/index.md) to start using containers in your workflows today.
+Check out the [getting started section](getting-started/quick-start.md) to start using containers in your workflows today.
 
 
 #### Raw Container Size Comparisons
