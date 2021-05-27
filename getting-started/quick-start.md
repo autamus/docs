@@ -40,11 +40,11 @@ If you are using Singularity-HPC checkout the examples for your container over a
 
 ## Building on Top of Autamus Containers
 You can totally use Autamus containers as the base of your other containers by writing,
-```Dockerfile
+```dockerfile
 FROM ghcr.io/autamus/CONTAINER-NAME:latest
 ```
 for example if you were writing a go application.
-```Dockerfile
+```dockerfile
 FROM ghcr.io/autamus/go:latest
 ```
 
