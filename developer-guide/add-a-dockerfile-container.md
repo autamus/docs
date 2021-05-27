@@ -21,12 +21,12 @@ nano containers/e/example/Dockerfile
 ```
 ##### Submit Your Container
 7. Commit your changes to the repository.
-```
+```bash
 git add .
 git commit
 ```
 8. Push the changes to your repository.
-```
+```bash
 git push
 ```
 9. Create a Pull Request to the `autamus/registry` through the GitHub interface. [How to Submit a Pull Request on GitHub](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
