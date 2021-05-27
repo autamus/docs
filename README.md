@@ -10,6 +10,8 @@ When a new version of a scientific/open source application is released, Autamus 
 #### What Does This Mean For You As A Researcher/Developer?
 Using containers built by Autamus, you can install all of the software you need for your analysis in one container package. Then easily move your workflows between laptops, servers, and HPC clusters all while using the same container to drastically increase the portability of your research. Finally, don't worry about your containers using up all of your available disk space since Autamus strips out everything except the software you actually need in your container.
 
+When on your laptop or a cloud virtual machine, Autamus containers can natively be used with [Docker](https://www.docker.com) or [Podman](https://podman.io). If you are using a University or National Lab Cluster, check out [Singularity-HPC](https://singularity-hpc.readthedocs.io/en/latest/) which let's you use Autamus containers as native software modules.
+
 ### Getting Started with Autamus Containers
 Check out the [getting started section](getting-started/index.md) to start using containers in your workflows today.
 
