@@ -3,7 +3,7 @@
 Spack is a flexible package manager created to help manage the complexity of scientific software on HPC (High Performance Computing) environments. Spack makes Autamus possible by providing us with a standard way of building software from source. Spack is a super awesome project go [check it out here](https://github.com/spack/spack)! Although we're probably a little biased 😋.
 
 ## Instructions
-1. Fork the registry [on GitHub](https://github.com/autamus/registry)
+1. Fork the registry [on GitHub](https://github.com/autamus/registry).
 2. Clone your fork of the repository to your local computer.
 ```bash
 git clone https://github.com/{YOUR_USERNAME}/registry
@@ -21,12 +21,12 @@ nano containers/e/example/spack.yaml
 spack:
     specs:
         - example
-        - example-freind
+        - example-friend
 ```
 Make sure to check for the package you're looking for from the [Spack Repository](https://github.com/spack/spack/tree/develop/var/spack/repos/).
 
 ##### Want to be a Superhero?
-5. (Optional) To help Autamus keep track of the Spack packages within your container please help us add their corrisponding `package.py` files to Autamus.
+5. (Optional) To help Autamus keep track of the Spack packages within your container please help us add their corresponding `package.py` files to Autamus.
 6. (Optional) Save the Spack instructions or create your new ones within a `package.py` file within the `spack/first-letter-of-package/package-name` directory.
 
 ```bash
