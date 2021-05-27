@@ -5,7 +5,7 @@ Hi there! Before we get started, I've got a few questions.
 2. Are you a nerd?
 3. Has it been more than 2 days since you've remembered to go outside?
 
-Any of those a yeah? Well welcome to the team!
+Any of those a yeah? Well welcome to the team! 🎉
 
 All we ask is that you keep an open-mind, are kind to others and try to have some fun! Oh and ask questions! There are no dumb questions! (Asking questions actually really helps us learn how to better tell other humans about Autamus.)
 
