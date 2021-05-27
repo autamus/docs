@@ -1,4 +1,4 @@
-## Add a Package to the Repository
+## Add a Spack Container to the Repository
 1. (Optional) Fork the repository
 2. Clone the repository to your local computer | or fork or the `container-blueprints` repository to your own.
 ```
