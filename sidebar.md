@@ -8,6 +8,8 @@
   - [Adding A Spack Container](/developer-guide/add-a-spack-container.md)
   - [Adding A Dockerfile Container](/developer-guide/add-a-dockerfile-container.md)
 
+- [FAQ](frequently-asked-questions.md)
+
 - [Contributing to Autamus](/contributing/contributing.md)
 
 - [Support](/help.md)
