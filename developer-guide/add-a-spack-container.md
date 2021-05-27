@@ -31,7 +31,6 @@ Make sure to check for the package you're looking for from the [Spack Repository
 ```bash
 nano spack/a/ant/package.py
 ```
-
 ```python
 # Copyright 2013-2021 Lawrence Livermore National Security, LLC and other
 # Spack Project Developers. See the top-level COPYRIGHT file for details.
