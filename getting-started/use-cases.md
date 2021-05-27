@@ -1,1 +1,10 @@
 # Use Cases
+
+## Alice: A Scientific Researcher
+Alice is a biological researcher at a University studying the changes in plants genomes. Before Autamus, Alice would test her code on the Mac version of BEAST (a bayesian analysis program) and then submit her data to the University's Supercomputer Cluster for larger data sets. However, Alice found occasional differences in the results of her simulations because of the different software stacks on her laptop and on the University's cluster. Using Autamus, Alice is able to run the same container through docker on her laptop as well as on the University's super computer using [Singularity-HPC](https://singularity-hpc.readthedocs.io). Using the same software stack, Alice finds that her small data tests on her laptop are consistent with her large data simulations. Moreover, when Alice publishes a paper on her work she links to the Autamus container he used. This allows her colleagues in genomic biology to throw their own data into her calculations and quickly reproduce her work.
+
+## Bob: A Research Software Engineer
+Bob is a research software engineer at a University. Using Autamus he can help researchers start running their calculations on the University's Supercomputer without fist having to teach them to setup and install the all dependencies they'll need for their analysis. As the lab's simulations out grow the University's resources, Bob is able to tell other computer scientists at large computing facilities the exact software stack his team needs easily with a single Autamus container.
+
+## Eve: A Developer
+Eve is a developer working at a Data Science company. She builds the company's specialized applications on top of Autamus containers which act as secure foundations that the company can verify as built from source. This gives Eve's team the confidence to design and deploy their applications as containers as well, which makes it easy for them to deploy their work globally.
