@@ -7,9 +7,8 @@
 - [Developer's Guide](/developer-guide/developer-guide.md)
   - [Adding A Spack Container](/developer-guide/add-a-spack-container.md)
   - [Adding A Dockerfile Container](/developer-guide/add-a-dockerfile-container.md)
+  - [Contributing to Autamus](/developer-guide/contributing.md)
 
 - [FAQ](frequently-asked-questions.md)
 
-- [Contributing to Autamus](/contributing/contributing.md)
-
-- [Support](/help.md)
+- [Support](help.md)

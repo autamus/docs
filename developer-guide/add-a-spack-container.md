@@ -1,8 +1,8 @@
-## Add a Spack Container to the Repository
-#### What's Spack?
+# Add a Spack Container to the Repository
+## What's Spack?
 Spack is a flexible package manager created to help manage the complexity of scientific software on HPC (High Performance Computing) environments. Spack makes Autamus possible by providing us with a standard way of building software from source. Spack is a super awesome project go [check it out here](https://github.com/spack/spack)! Although we're probably a little biased 😋.
 
-#### Instructions
+## Instructions
 1. Fork the registry [on GitHub](https://github.com/autamus/registry)
 2. Clone your fork of the repository to your local computer.
 ```bash
