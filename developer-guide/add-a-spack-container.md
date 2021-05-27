@@ -20,8 +20,8 @@ nano containers/e/example/spack.yaml
 ```yaml
 spack:
     specs:
-        - example
-        - example-freind
+      - example
+      - example-freind
 ```
 Make sure to check for the package you're looking for from the [Spack Repository](https://github.com/spack/spack/tree/develop/var/spack/repos/).
 
