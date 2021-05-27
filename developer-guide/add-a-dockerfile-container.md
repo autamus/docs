@@ -30,3 +30,6 @@ git commit
 git push
 ```
 9. Create a Pull Request to the `autamus/registry` through the GitHub interface. [How to Submit a Pull Request on GitHub](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+
+## Support
+If anything doesn't make sense or you need help getting started reach out to us over our [Matrix Channel](https://matrix.to/#/!JZvPdVciSYDEVxNZHK:matrix.org?via=matrix.org). Or if chat isn't you thing you can post over on our [discussion forum on GitHub](https://github.com/autamus/registry/discussions).
