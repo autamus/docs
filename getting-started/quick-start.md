@@ -1,4 +1,8 @@
 # Quick Start
+
+## Table of Contents
+- [Prerequisites](#prerequisites)
+
 ## Prerequisites
 To get started using an Autamus container you'll either need [Docker](https://docs.docker.com/get-docker/), [Podman](https://podman.io), or [Singularity-HPC](https://singularity-hpc.readthedocs.io/en/latest/). If you're on a University or National Lab computing cluster we recommend using Singularity-HPC since it'll allow you to install and use containers just as you would any other system module! If you're on a cloud virtual machine or your own laptop where having root access isn't an issue we recommend using Docker. Finally if you're on a Linux laptop or your own Linux server and want to try something awesome check out Podman!
 
