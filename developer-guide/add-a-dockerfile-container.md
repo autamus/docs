@@ -4,7 +4,7 @@ Although Autamus typically prefers that containers are built from source using [
 ## Dockerfile Updates
 At the moment we don't support autonomously updating Dockerfiles when the upstream container updates but those plans are in the works.
 
-## Instruction
+## Instructions
 1. Fork the registry [on GitHub](https://github.com/autamus/registry).
 2. Clone your fork of the repository to your local computer.
 ```bash
