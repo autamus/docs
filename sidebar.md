@@ -3,6 +3,7 @@
   - [Use Cases](/getting-started/use-cases.md)
 
 - [User's Guide](/user-guide/user-guide.md)
+  - [Create an Automated Build](/user-guide/create-automated-build.md)
 
 - [Developer's Guide](/developer-guide/developer-guide.md)
   - [Adding A Spack Container](/developer-guide/add-a-spack-container.md)
