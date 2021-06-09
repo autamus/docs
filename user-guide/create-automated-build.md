@@ -13,7 +13,7 @@ more containers. The guide here will walk you through the necessary steps.
 To use the container builder template you need to:
 
  1. Setup your registry
- 2. Use the repository as a template or copy over GitHub workflow files
+ 2. Use the repository as a template or copy over the `build-deploy.yaml` GitHub workflow
  3. Update the registry and container names
  4. Check triggers
  5. Build and deploy!
@@ -23,6 +23,7 @@ And then you are done! We will explain each of the above in the following sectio
 ### 1. Enable GitHub Container Registry
 
 #### GitHub Container Registry
+
 If you want to use GitHub container registry, you can follow the instructions [here](https://docs.github.com/en/packages/working-with-a-github-packages-registry/enabling-improved-container-support-with-the-container-registry) to enable GitHub Container Registry,
 either for your user or organizational account.
 
@@ -36,7 +37,7 @@ If you are brave and want to continue using Docker Hub, you can create a [person
 to write to other repos you have on Docker Hub.
 
 The template will work with any of the registries above. You will need to generate credentials
-(a username and password) to login in the `deploy.yaml`  workflow. This will be discussed
+(a username and password) to login when your workflow is deploying containers. This will be discussed
 in the following sections.
 
 
@@ -48,15 +49,15 @@ This is as simple as:
 
 ```bash
 $ git clone https://github.com/autamus/container-builder-template template/
-cp template/.github/workflows/*.yaml myrepo/.github/workflows/
+cp template/.github/workflows/build-deploy.yaml myrepo/.github/workflows/
 ```
 
 ### 3. Update the Registry and Container Names
 
 #### Registry
 
-For each workflow file, meaning the two *.yaml files you copied into your
-repository, you'll want to define your registry in the environment of
+In the `build-deploy.yaml` file newly added to your repository,
+you'll want to define your registry in the environment of
 the job, meaning filling in this section:
 
 ```yaml
@@ -94,14 +95,12 @@ with:
 ```
 
 For more examples of logging in to different registries, see the [login action](https://github.com/docker/login-action).
-The environment section will need to be changed in `build.yaml` and `deploy.yaml`,
-while the login section is only present in `deploy.yaml`.
+If you have any questions please don't hesitate to [open an issue](https://github.com/autamus/container-builder-template/issues).
 
 #### Container Names
 
 To tell the workflows which Dockerfiles to build, and what tags to use, you
-should define a list of `dockerfile` in the matrix. This is present in both
-`build.yaml` and `deploy.yaml`. For each entry, the first
+should define a list of `dockerfile` in the matrix. For each entry, the first
 item is the relative path from the root of your repository, and the second
 item is the tag to build.
 
@@ -121,10 +120,15 @@ to ghcr.io)
  - ghcr.io/autamus/container-builder-template:latest from Dockerfile
  - ghcr.io/autamus/container-builder-template:subfolder from subfolder/Dockerfile
 
+When you create a release (e.g., 1.0.0), the following containers will also be built.
+
+ - ghcr.io/autamus/container-builder-template:1.0.0-latest from Dockerfile
+ - ghcr.io/autamus/container-builder-template:1.0.0-subfolder from subfolder/Dockerfile
+
 
 ### 4. Check Triggers
 
-By default, adding these files will build containers on a pull request (to test
+By default, adding this workflow will build containers on a pull request (to test
 changes) and then deploy on any merge into the main branch. You can take a look
 at [GitHub triggers](https://docs.github.com/en/actions/reference/events-that-trigger-workflows) if 
 you want to choose a different event (e.g., a release).
@@ -132,7 +136,7 @@ you want to choose a different event (e.g., a release).
 
 ### 5. Build and Deploy!
 
-Try adding these new files to your repository via a pull request, and ensure
+Try adding this workflow to your repository via a pull request, and ensure
 that the containers build. When you merge, they will be pushed to the registry!
 If you are using GitHub Container Registry, be sure to visit your organization
 or user packages and update the containers from private to public, if this is what
