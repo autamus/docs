@@ -44,8 +44,8 @@ in the following sections.
 ### 2. Template the Repository
 
 You can either [use the repository as a template](https://github.com/autamus/container-builder-template/generate) 
-or copy the contents of [.github/workflows](.github/workflows) into your current repository.
-This is as simple as:
+or copy the `build-deploy.yaml` from [.github/workflows](https://github.com/autamus/container-builder-template/blob/main/.github/workflows/build-deploy.yaml) 
+into your current repository. This is as simple as:
 
 ```bash
 $ git clone https://github.com/autamus/container-builder-template template/
@@ -114,8 +114,7 @@ strategy:
     dockerfiles: [[Dockerfile, latest], [subfolder/Dockerfile, subfolder]]
 ```
 
-The above will build the following containers (note that docker.pkg.github.com refers
-to ghcr.io)
+The above will build the following containers:
 
  - ghcr.io/autamus/container-builder-template:latest from Dockerfile
  - ghcr.io/autamus/container-builder-template:subfolder from subfolder/Dockerfile
@@ -129,9 +128,9 @@ When you create a release (e.g., 1.0.0), the following containers will also be b
 ### 4. Check Triggers
 
 By default, adding this workflow will build containers on a pull request (to test
-changes) and then deploy on any merge into the main branch. You can take a look
+changes) and then deploy on any merge into the main branch, along with releases. You can take a look
 at [GitHub triggers](https://docs.github.com/en/actions/reference/events-that-trigger-workflows) if 
-you want to choose a different event (e.g., a release).
+you want to choose a different event.
 
 
 ### 5. Build and Deploy!
