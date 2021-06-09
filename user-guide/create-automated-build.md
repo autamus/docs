@@ -43,7 +43,7 @@ in the following sections.
 
 ### 2. Template the Repository
 
-You can either [use the repository as a template](https://github.com/autamus/container-builder-template/template) 
+You can either [use the repository as a template](https://github.com/autamus/container-builder-template/generate) 
 or copy the contents of [.github/workflows](.github/workflows) into your current repository.
 This is as simple as:
 
