@@ -1,6 +1,6 @@
 # Add a Spack Container to the Repository
 ## What's Spack?
-Spack is a flexible package manager created to help manage the complexity of scientific software on HPC (High Performance Computing) environments. Spack makes Autamus possible by providing us with a standard way of building software from source. Spack is a super awesome project -- [check it out here](https://github.com/spack/spack)! Although we're probably a little biased 😋.
+Spack is a flexible package manager created to help manage the complexity of scientific software in HPC (High Performance Computing) environments. Spack makes Autamus possible by providing us with a standard way of building software from source. Spack is a super awesome project -- [check it out here](https://github.com/spack/spack)! Although we're probably a little biased 😋.
 
 ## Instructions
 1. Fork the registry [on GitHub](https://github.com/autamus/registry).
@@ -26,7 +26,7 @@ spack:
 Make sure to check for the package you're looking for from the [Spack Repository](https://github.com/spack/spack/tree/develop/var/spack/repos/).
 
 ##### Want to be a Superhero?
-5. (Optional) To help Autamus keep track of the Spack packages within your container please help us add their corresponding `package.py` files to Autamus.
+5. (Optional) To help Autamus keep track of the Spack packages within your container, please help us add their corresponding `package.py` files to Autamus.
 6. (Optional) Save the Spack instructions or create your new ones within a `package.py` file within the `spack/first-letter-of-package/package-name` directory.
 
 ```bash
@@ -84,4 +84,4 @@ git push
 9. Create a Pull Request to the `autamus/registry` through the GitHub interface. [How to Submit a Pull Request on GitHub](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
 ## Support
-If anything doesn't make sense or you need help getting started reach out to us over our [Matrix Channel](https://matrix.to/#/!JZvPdVciSYDEVxNZHK:matrix.org?via=matrix.org). Or if chat isn't you thing you can post over on our [discussion forum on GitHub](https://github.com/autamus/registry/discussions).
+If something doesn't make sense or you need help getting started, reach out to us over our [Matrix Channel](https://matrix.to/#/!JZvPdVciSYDEVxNZHK:matrix.org?via=matrix.org). Or if chat isn't your thing, you can post over on our [discussion forum on GitHub](https://github.com/autamus/registry/discussions).
